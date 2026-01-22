@@ -27,7 +27,7 @@ Body:
     "website": "https://shoham-katzav-portfolio.vercel.app/"
 }
 HTTP/1.1 200 OK
-Date: Thu, 22 Jan 2026 09:18:42 GMT
+Date: Thu, 22 Jan 2026 11:02:23 GMT
 Server: Apache/2.4.52 (Ubuntu)
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
@@ -40,17 +40,17 @@ Content-Type: application/json;charset=UTF-8
 
 {
     "status": "OK",
-    "place_id": "164b3f9cc3ea732993869736cc20b698",
+    "place_id": "7e38b0fa7c0c5aa4851fbe356994c0e7",
     "scope": "APP",
-    "reference": "19a5f3d19862cac7fe341c0cddc7451519a5f3d19862cac7fe341c0cddc74515",
-    "id": "19a5f3d19862cac7fe341c0cddc74515"
+    "reference": "dd4a55521e2344444a2429c689c1dabfdd4a55521e2344444a2429c689c1dabf",
+    "id": "dd4a55521e2344444a2429c689c1dabf"
 }
 Request method:	GET
-Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=164b3f9cc3ea732993869736cc20b698
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=7e38b0fa7c0c5aa4851fbe356994c0e7
 Proxy:			<none>
 Request params:	<none>
 Query params:	key=qaclick123
-				place_id=164b3f9cc3ea732993869736cc20b698
+				place_id=7e38b0fa7c0c5aa4851fbe356994c0e7
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=*/*
@@ -59,7 +59,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Thu, 22 Jan 2026 09:18:43 GMT
+Date: Thu, 22 Jan 2026 11:02:24 GMT
 Server: Apache/2.4.52 (Ubuntu)
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
@@ -96,10 +96,10 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "place_id": "164b3f9cc3ea732993869736cc20b698"
+    "place_id": "7e38b0fa7c0c5aa4851fbe356994c0e7"
 }
 HTTP/1.1 200 OK
-Date: Thu, 22 Jan 2026 09:18:45 GMT
+Date: Thu, 22 Jan 2026 11:02:26 GMT
 Server: Apache/2.4.52 (Ubuntu)
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
@@ -142,7 +142,7 @@ Body:
     "website": "https://shoham-katzav-portfolio.vercel.app/"
 }
 HTTP/1.1 200 OK
-Date: Thu, 22 Jan 2026 09:18:48 GMT
+Date: Thu, 22 Jan 2026 11:02:29 GMT
 Server: Apache/2.4.52 (Ubuntu)
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
@@ -155,17 +155,17 @@ Content-Type: application/json;charset=UTF-8
 
 {
     "status": "OK",
-    "place_id": "8cbe244e1cd1c4e9cef7c255de09d7d7",
+    "place_id": "0b8d8264ef2a215efc921dc076a51a77",
     "scope": "APP",
-    "reference": "12e5fe95a31a6a7c711e39e4f73c78fe12e5fe95a31a6a7c711e39e4f73c78fe",
-    "id": "12e5fe95a31a6a7c711e39e4f73c78fe"
+    "reference": "f09d20d00bf85634321d71325d38e5daf09d20d00bf85634321d71325d38e5da",
+    "id": "f09d20d00bf85634321d71325d38e5da"
 }
 Request method:	GET
-Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=8cbe244e1cd1c4e9cef7c255de09d7d7
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=0b8d8264ef2a215efc921dc076a51a77
 Proxy:			<none>
 Request params:	<none>
 Query params:	key=qaclick123
-				place_id=8cbe244e1cd1c4e9cef7c255de09d7d7
+				place_id=0b8d8264ef2a215efc921dc076a51a77
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=*/*
@@ -174,7 +174,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Thu, 22 Jan 2026 09:18:49 GMT
+Date: Thu, 22 Jan 2026 11:02:30 GMT
 Server: Apache/2.4.52 (Ubuntu)
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
@@ -211,10 +211,10 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "place_id": "8cbe244e1cd1c4e9cef7c255de09d7d7"
+    "place_id": "0b8d8264ef2a215efc921dc076a51a77"
 }
 HTTP/1.1 200 OK
-Date: Thu, 22 Jan 2026 09:18:51 GMT
+Date: Thu, 22 Jan 2026 11:02:32 GMT
 Server: Apache/2.4.52 (Ubuntu)
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
@@ -257,7 +257,7 @@ Body:
     "website": "https://shoham-katzav-portfolio.vercel.app/"
 }
 HTTP/1.1 200 OK
-Date: Thu, 22 Jan 2026 09:18:54 GMT
+Date: Thu, 22 Jan 2026 11:02:35 GMT
 Server: Apache/2.4.52 (Ubuntu)
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
@@ -270,17 +270,17 @@ Content-Type: application/json;charset=UTF-8
 
 {
     "status": "OK",
-    "place_id": "ae588d4328d7ef1cfd4578da9f3c9530",
+    "place_id": "fa2d2e03e9a40f43b848a68f7a33888b",
     "scope": "APP",
-    "reference": "cd18ad7307cc1e7e3b414511cf7889abcd18ad7307cc1e7e3b414511cf7889ab",
-    "id": "cd18ad7307cc1e7e3b414511cf7889ab"
+    "reference": "5e57400a985b001083ee93c28e679a685e57400a985b001083ee93c28e679a68",
+    "id": "5e57400a985b001083ee93c28e679a68"
 }
 Request method:	GET
-Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=ae588d4328d7ef1cfd4578da9f3c9530
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=fa2d2e03e9a40f43b848a68f7a33888b
 Proxy:			<none>
 Request params:	<none>
 Query params:	key=qaclick123
-				place_id=ae588d4328d7ef1cfd4578da9f3c9530
+				place_id=fa2d2e03e9a40f43b848a68f7a33888b
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=*/*
@@ -289,7 +289,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Thu, 22 Jan 2026 09:18:55 GMT
+Date: Thu, 22 Jan 2026 11:02:36 GMT
 Server: Apache/2.4.52 (Ubuntu)
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
@@ -326,10 +326,10 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "place_id": "ae588d4328d7ef1cfd4578da9f3c9530"
+    "place_id": "fa2d2e03e9a40f43b848a68f7a33888b"
 }
 HTTP/1.1 200 OK
-Date: Thu, 22 Jan 2026 09:18:57 GMT
+Date: Thu, 22 Jan 2026 11:02:38 GMT
 Server: Apache/2.4.52 (Ubuntu)
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
