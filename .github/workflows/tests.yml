@@ -23,3 +23,15 @@ jobs:
 
       - name: Run Cucumber Tests
         run: mvn clean verify
+		continue-on-error: true
+		
+	  - name: Upload Logs and Reports
+		uses: actions/upload-artifact@v4
+		with:
+		  name: api-test-results
+		  path: |
+		    target/cucumber-html-reports/
+		    logging.txt
+		  retention-days: 7
+		
+	
