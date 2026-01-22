@@ -32,5 +32,13 @@ public class TestDataBuild {
 				+ "    \"place_id\" : \"" + placeId + "\"\r\n"
 				+ "}";
 	}
+	
+	public String editPlacePayload(String placeId, String address) {
+		return "{\r\n"
+				+ "\"place_id\":\"" + placeId +"\",\r\n"
+				+ "\"address\":\"" + address +"\",\r\n"
+				+ "\"key\":\"qaclick123\"\r\n"
+				+ "}";
+	}
 
 }

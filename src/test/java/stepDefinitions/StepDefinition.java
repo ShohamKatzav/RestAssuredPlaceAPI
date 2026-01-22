@@ -45,6 +45,8 @@ public class StepDefinition extends Utils {
 			response = res.when().get(resourceAPI.getResource());
 		else if(method.equalsIgnoreCase("DELETE"))
 			response = res.when().delete(resourceAPI.getResource());
+		else if(method.equalsIgnoreCase("PUT"))
+			response = res.when().put(resourceAPI.getResource());
 	}
 	
 	@Then("the API call got success with status code {int}")
@@ -58,20 +60,30 @@ public class StepDefinition extends Utils {
 	    assertEquals(expectedValue, getJsonPath(response,keyValue));
 	}
 	
-	@Then("verify place_id created maps to {string} using {string}")
-	public void verify_place_id_created_maps_to_using(String expectedName, String resourceName) throws IOException {
-	    // Write code here that turns the phrase above into concrete actions
-		place_id = getJsonPath(response, "place_id");
-		res = given().spec(requestSpecification()).queryParam("place_id", place_id);
-		user_calls_with_post_http_request(resourceName, "GET");
-		String actualName = getJsonPath(response, "name");
-		assertEquals(expectedName, actualName);
+	@Then("I record the {string} from the response")
+	public void i_record_the_from_the_response(String key) {
+	    place_id = getJsonPath(response, key);
 	}
 	
-	@Given("DeletePlace Pyload")
-	public void delete_place_pyload() throws IOException {
+	@Then("verify {string} maps to {string} using {string}")
+	public void verify_field_maps_to_using(String fieldName, String expectedValue, String resourceName) throws IOException {
+	    // Write code here that turns the phrase above into concrete actions
+		res = given().spec(requestSpecification()).queryParam("place_id", place_id);
+		user_calls_with_post_http_request(resourceName, "GET");
+		String actualValue = getJsonPath(response, fieldName);
+		assertEquals(expectedValue, actualValue);
+	}
+	
+	@Given("DeletePlace Payload")
+	public void delete_place_payload() throws IOException {
 	    // Write code here that turns the phrase above into concrete actions
 		res = given().spec(requestSpecification()).body(data.deletePlacePayload(place_id));
+	}
+	
+	@Given("EditPlace Payload with {string}")
+	public void edit_place_payload(String address) throws IOException {
+	    // Write code here that turns the phrase above into concrete actions
+		res = given().spec(requestSpecification()).body(data.editPlacePayload(place_id, address));
 	}
 	
 
