@@ -1,0 +1,345 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "address": "World cross center",
+    "language": "English",
+    "location": {
+        "lat": -38.383494,
+        "lng": -38.383494
+    },
+    "name": "AAhouse",
+    "phone_number": "(+972) 523 292 847",
+    "types": [
+        "shoe park",
+        "shop"
+    ],
+    "website": "https://shoham-katzav-portfolio.vercel.app/"
+}
+HTTP/1.1 200 OK
+Date: Wed, 21 Jan 2026 10:07:33 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "c3970c3f29a4e3a58a4f70df3fd41a8d",
+    "scope": "APP",
+    "reference": "2528d3b1adb6feb6df14dab42fa5b2c52528d3b1adb6feb6df14dab42fa5b2c5",
+    "id": "2528d3b1adb6feb6df14dab42fa5b2c5"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=c3970c3f29a4e3a58a4f70df3fd41a8d
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=c3970c3f29a4e3a58a4f70df3fd41a8d
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Wed, 21 Jan 2026 10:07:36 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 268
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-38.383494",
+        "longitude": "-38.383494"
+    },
+    "accuracy": "50",
+    "name": "AAhouse",
+    "phone_number": "(+972) 523 292 847",
+    "address": "World cross center",
+    "types": "shoe park,shop",
+    "website": "https://shoham-katzav-portfolio.vercel.app/",
+    "language": "English"
+}
+Request method:	DELETE
+Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "place_id": "c3970c3f29a4e3a58a4f70df3fd41a8d"
+}
+HTTP/1.1 200 OK
+Date: Wed, 21 Jan 2026 10:07:38 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 15
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "address": "Sea cross center",
+    "language": "Hebrew",
+    "location": {
+        "lat": -38.383494,
+        "lng": -38.383494
+    },
+    "name": "BBhouse",
+    "phone_number": "(+972) 523 292 847",
+    "types": [
+        "shoe park",
+        "shop"
+    ],
+    "website": "https://shoham-katzav-portfolio.vercel.app/"
+}
+HTTP/1.1 200 OK
+Date: Wed, 21 Jan 2026 10:07:41 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "9f8447ad09448a0e40b7c4b31bfdb259",
+    "scope": "APP",
+    "reference": "65663e6d33399ed732cfdbef715c7f1e65663e6d33399ed732cfdbef715c7f1e",
+    "id": "65663e6d33399ed732cfdbef715c7f1e"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=9f8447ad09448a0e40b7c4b31bfdb259
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=9f8447ad09448a0e40b7c4b31bfdb259
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Wed, 21 Jan 2026 10:07:42 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 265
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-38.383494",
+        "longitude": "-38.383494"
+    },
+    "accuracy": "50",
+    "name": "BBhouse",
+    "phone_number": "(+972) 523 292 847",
+    "address": "Sea cross center",
+    "types": "shoe park,shop",
+    "website": "https://shoham-katzav-portfolio.vercel.app/",
+    "language": "Hebrew"
+}
+Request method:	DELETE
+Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "place_id": "9f8447ad09448a0e40b7c4b31bfdb259"
+}
+HTTP/1.1 200 OK
+Date: Wed, 21 Jan 2026 10:07:44 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 15
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "address": "Asia",
+    "language": "French",
+    "location": {
+        "lat": -38.383494,
+        "lng": -38.383494
+    },
+    "name": "Shetty",
+    "phone_number": "(+972) 523 292 847",
+    "types": [
+        "shoe park",
+        "shop"
+    ],
+    "website": "https://shoham-katzav-portfolio.vercel.app/"
+}
+HTTP/1.1 200 OK
+Date: Wed, 21 Jan 2026 10:07:47 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "d8cac26a1cab78cf13f7442f04912f9b",
+    "scope": "APP",
+    "reference": "97b92f9680089443658b884919c7bfde97b92f9680089443658b884919c7bfde",
+    "id": "97b92f9680089443658b884919c7bfde"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=d8cac26a1cab78cf13f7442f04912f9b
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=d8cac26a1cab78cf13f7442f04912f9b
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Wed, 21 Jan 2026 10:07:48 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 252
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-38.383494",
+        "longitude": "-38.383494"
+    },
+    "accuracy": "50",
+    "name": "Shetty",
+    "phone_number": "(+972) 523 292 847",
+    "address": "Asia",
+    "types": "shoe park,shop",
+    "website": "https://shoham-katzav-portfolio.vercel.app/",
+    "language": "French"
+}
+Request method:	DELETE
+Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "place_id": "d8cac26a1cab78cf13f7442f04912f9b"
+}
+HTTP/1.1 200 OK
+Date: Wed, 21 Jan 2026 10:07:50 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 15
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK"
+}

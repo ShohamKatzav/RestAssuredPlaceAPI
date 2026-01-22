@@ -1,0 +1,23 @@
+# Maven build output
+target/
+*.jar
+*.war
+
+# IDE specific files (Eclipse & IntelliJ)
+.classpath
+.project
+.settings/
+.idea/
+*.iml
+*.iws
+.metadata/
+
+# Log files and reports
+*.log
+test-output/
+target/cucumber-reports/
+allure-results/
+
+# OS specific
+.DS_Store
+Thumbs.db
